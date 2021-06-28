@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "runstalker",
+  "version": "1.0.1",
+
+  "name": "Run Stalker",
+  "description": "The mod is made especially for melharucos, but can be used by other people, too. Its only function is to start a S.T.A.L.K.E.R. game once the player dies in Hardcore mode.",
+  "authors": [
+    "lepimond (also known as crazylepimond)"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/runstalker/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "lepimond.runstalker.RunStalker"
+    ]
+  },
+  "mixins": [
+    "runstalker.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
